@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 DIR=`pwd`
 git submodule update --init --recursive
 
@@ -6,7 +6,7 @@ git submodule update --init --recursive
 if [ -d "~/.vim" ]; then 
   mv ~/.vim ~/.vim_back
 fi 
-if [ -f "~/vimrc" ]; then 
+if [ -f "~/.vimrc" ]; then 
   mv ~/.vimrc ~/.vimrc_back
 fi
 if [ -f "~/.tmux.conf" ]; then 
@@ -53,6 +53,7 @@ case $PLATFORM in
 esac
 
 # install vim plug-in youCompleteMe
+cd $DIR
 source ycm.sh
 cd
 chsh -s `which zsh`

@@ -1,6 +1,6 @@
 # Vampire's dotfiles
 
-### descriptions
+### Descriptions
   dotfiles on Macos and Linux(Ubuntu,centos test, other distributions may need a little revise)
 
 ### Install

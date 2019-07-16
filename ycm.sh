@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 DIR=`pwd`
 
 if [ -f "~/.ycm_extra_conf.py" ]; then 
