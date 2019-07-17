@@ -4,7 +4,7 @@ DIR=`pwd`
 if [ -f "~/.ycm_extra_conf.py" ]; then 
    mv ~/.ycm_extra_conf.py ~/.ycm_extra_conf.py_back
 fi
-ln -sf $DIR/ycm_extra_conf.py ~/.ycm_extra_conf.py
+ln -sf $DIR/configFiles/ycm_extra_conf.py ~/.ycm_extra_conf.py
 
 cd vim/bundle/YouCompleteMe
 git submodule update --init --recursive

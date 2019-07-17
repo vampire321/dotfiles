@@ -29,13 +29,13 @@ fi
 rm -rf ~/.vim_back
 
 
-ln -sf $DIR/vimrc ~/.vimrc
-ln -sf $DIR/vim ~/.vim
-ln -sf $DIR/tmux.conf.local ~/.tmux.conf.local
-ln -sf $DIR/tmux.conf ~/.tmux.conf
-ln -sf $DIR/profile ~/.profile
-ln -sf $DIR/profile ~/.zprofile
-ln -sf $DIR/zshrc ~/.zshrc
+ln -sf $DIR/configFiles/vimrc ~/.vimrc
+ln -sf $DIR/configFiles/vim ~/.vim
+ln -sf $DIR/configFiles/tmux.conf.local ~/.tmux.conf.local
+ln -sf $DIR/configFiles/tmux.conf ~/.tmux.conf
+ln -sf $DIR/configFiles/profile ~/.profile
+ln -sf $DIR/configFiles/profile ~/.zprofile
+ln -sf $DIR/configFiles/zshrc ~/.zshrc
 
 
 PLATFORM=`python -mplatform`
