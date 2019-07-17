@@ -10,3 +10,7 @@ PATH="$HOME/.composer/vendor/bin:$PATH"
 PATH="$HOME/cross/usr/bin:$PATH"
 PATH="$PATH:/usr/local/go/bin"
 PROMPT="%{$fg[white]%}%n@%{$fg[green]%}%m%{$reset_color%} ${PROMPT}"
+
+# for pwngdb
+export LC_ALL=en_US.UTF-8
+export PYTHONIOENCODING=UTF-8
