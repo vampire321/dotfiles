@@ -52,6 +52,5 @@ case $PLATFORM in
      echo "PLATFORM not support now.."
 esac
 
-# install vim plug-in youCompleteMe
 chsh -s `which zsh`
 exec zsh
