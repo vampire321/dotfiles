@@ -25,3 +25,4 @@ case $PLATFORM in
     *)
     echo "PLATFORM not support now.."
 esac
+echo "ycm done."

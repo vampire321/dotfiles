@@ -53,8 +53,5 @@ case $PLATFORM in
 esac
 
 # install vim plug-in youCompleteMe
-cd $DIR
-source ycm.sh
-cd
 chsh -s `which zsh`
 exec zsh

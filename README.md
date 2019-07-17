@@ -1,11 +1,15 @@
 # Vampire's dotfiles
 
 ### Descriptions
-  dotfiles on Macos and Linux(Ubuntu,centos test, other distributions may need a little revise)
+Dotfiles on Macos and Linux(Ubuntu,centos test, other distributions may need a little revise)
 
 ### Install
 ```
-  ./install.sh
+./install.sh
+```
+if you want YouCompleteMe:
+```
+./ycm.sh
 ```
 
 ### Thanks
