@@ -29,8 +29,8 @@ fi
 rm -rf ~/.vim_back
 
 
+ln -sf $DIR/vim ~/.vim
 ln -sf $DIR/configFiles/vimrc ~/.vimrc
-ln -sf $DIR/configFiles/vim ~/.vim
 ln -sf $DIR/configFiles/tmux.conf.local ~/.tmux.conf.local
 ln -sf $DIR/configFiles/tmux.conf ~/.tmux.conf
 ln -sf $DIR/configFiles/profile ~/.profile
@@ -47,6 +47,7 @@ case $PLATFORM in
            sudo yum update
            sudo yum install vim tmux zsh;;
      *Darwin*)
+           brew install coreutils
            brew install vim  tmux zsh;;
      *)
      echo "PLATFORM not support now.."
