@@ -9,6 +9,11 @@ Mainly use zsh for default shell,  tmux & vim to work.
 git clone https://github.com/vampire321/dotfiles.git
 cd dotfiles && ./install.sh
 ```
+if you want YouCompleteMe:
+```
+./ycm.sh
+```
+
 Note:
 + During some reasons, you may have to use network scientifically in the China Mainland to get some tools needed by YouCompleteMe.(But if not, you will failed to use powerful YouCompleteMe,but can still use other parts) 
 + On centos, you may need to comlile&install a 8.0+vim to use ycm.
