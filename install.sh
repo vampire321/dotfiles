@@ -6,6 +6,7 @@ git submodule update --init --recursive
 if [ -d "~/.vim" ]; then 
   mv ~/.vim ~/.vim_back
 fi 
+rm -rf ~/.vim
 if [ -L "~/.vim" ]; then
   rm ~/.vim
 fi
